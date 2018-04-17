@@ -21,3 +21,12 @@ A Python client for deepstream.io
 ## Q: What does `setup.py` do?
 
 Looks like the equivalent of [pom.xml](https://en.wikipedia.org/wiki/Apache_Maven#Project_Object_Model) file in the Java world or Makefile in C, according to [StackOverflow](https://stackoverflow.com/questions/1471994/what-is-setup-py). 
+
+# Progress
+
+The [DeepStream.io spec](https://github.com/deepstreamIO/deepstream.io-client-specs) contains the features shown below. The DeepStream Python client is completed, if all these features are implemented (with exceptions, see Wolfram Hempel's [comment](https://github.com/deepstreamIO/deepstream.io/issues/72)). 
+
+| Nr. | Feature | Is it implemented? | Notes |
+| --- | ------- | ------------------ | ----- |
+| A   | B       | C                  | D     |
+
