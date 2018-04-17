@@ -12,7 +12,15 @@ A Python client for deepstream.io
 
 ## How to build the project
 
-`python setup.py build`
+1. Run `python setup.py build`.
+2. The results will be in the `build/lib/deepstreampy/` directory.
+
+[Source](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
+
+## How to create a binary distribution
+
+1. Run `python setup.py bdist`.
+2. The `dist` directory will contain the generated files. 
 
 [Source](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
 
