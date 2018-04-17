@@ -8,6 +8,14 @@ A Python client for deepstream.io
 
 ## Setting up the infrastructure
 
+* Install Python 3.6 on your machine (or 3.5, 3.6, 3.4, 3.3, or 2.7, see [.travis.yml](https://github.com/dpisarenko/deepstreampy/blob/dev/.travis.yml) 
+
+## How to build the project
+
+`python setup.py build`
+
+[Source](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
+
 # Questions asked by Python newbies
 
 ## Q: What does `setup.py` do?
