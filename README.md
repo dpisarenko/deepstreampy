@@ -37,6 +37,14 @@ This is an attempt to extend the Python client library written by [Yavor Paunov]
 1. Go (`cd`) into the project directory.
 2. Run `nosetests` in the command line.
 
+## How to install DeepStream under Windows 
+
+
+
+## How to manually test the library
+
+1. Install [DeepStream](https://deepstreamhub.com/open-source/#install) on your machine. If you are using Windows and [issue #893](https://github.com/deepstreamIO/deepstream.io/issues/893) is not resolved, read section "How to install DeepStream under Windows". 
+
 # Questions asked by Python newbies
 
 ## Q: What does `setup.py` do?
