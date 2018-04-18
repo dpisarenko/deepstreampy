@@ -44,10 +44,10 @@ As of this writing (18.04.2018) there is no working Windows binary available (se
 1. Build the binary from the sources.
 2. Install Deepstream in the Windows Ubuntu subsystem (as described [here](https://deepstreamhub.com/open-source/install/ubuntu/)).
   
-
 ## How to manually test the library
 
 1. Install [DeepStream](https://deepstreamhub.com/open-source/#install) on your machine. If you are using Windows and [issue #893](https://github.com/deepstreamIO/deepstream.io/issues/893) is not resolved, read section "How to install DeepStream under Windows". 
+2. Configure a test user.
 
 # Questions asked by Python newbies
 
