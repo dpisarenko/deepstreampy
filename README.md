@@ -24,6 +24,10 @@ A Python client for deepstream.io
 
 [Source](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
 
+## How to run tests
+
+TBD
+
 # Questions asked by Python newbies
 
 ## Q: What does `setup.py` do?
