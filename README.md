@@ -14,6 +14,8 @@ This is an attempt to extend the Python client library written by [Yavor Paunov]
 ## Setting up the infrastructure
 
 * Install Python 3.6 on your machine (or 3.5, 3.6, 3.4, 3.3, or 2.7, see [.travis.yml](https://github.com/dpisarenko/deepstreampy/blob/dev/.travis.yml)) 
+* Install [pyee](https://pypi.org/project/pyee/) (`pip install pyee`) 
+* Install [tornado](https://pypi.org/project/tornado/) (`pip install tornado`) 
 
 ## How to build the project
 
