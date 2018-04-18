@@ -39,7 +39,11 @@ This is an attempt to extend the Python client library written by [Yavor Paunov]
 
 ## How to install DeepStream under Windows 
 
+As of this writing (18.04.2018) there is no working Windows binary available (see [issue #893](https://github.com/deepstreamIO/deepstream.io/issues/893)). There are at least two work-arounds:
 
+1. Build the binary from the sources.
+2. Install Deepstream in the Windows Ubuntu subsystem (as described [here](https://deepstreamhub.com/open-source/install/ubuntu/)).
+  
 
 ## How to manually test the library
 
