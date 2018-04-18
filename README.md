@@ -1,8 +1,13 @@
 # deepstreampy
+
 A Python client for deepstream.io
 
 [![Build Status](https://travis-ci.org/YavorPaunov/deepstreampy.svg)](https://travis-ci.org/YavorPaunov/deepstreampy)
 [![Coverage Status](https://coveralls.io/repos/github/YavorPaunov/deepstreampy/badge.svg)](https://coveralls.io/github/YavorPaunov/deepstreampy)
+
+# Intellectual Property
+
+This is an attempt to extend the Python client library written by [Yavor Paunov](https://github.com/YavorPaunov/deepstreampy). He is the original author of this software.
 
 # Contributor's Guide
 
