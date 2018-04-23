@@ -43,7 +43,39 @@ As of this writing (18.04.2018) there is no working Windows binary available (se
 
 1. Build the binary from the sources.
 2. Install Deepstream in the Windows Ubuntu subsystem (as described [here](https://deepstreamhub.com/open-source/install/ubuntu/)).
-  
+ 
+## How to find out how the DeepStream server works
+
+For this we'll need to use one of the existing DeepStream clients. I will use the JavaScript client.
+
+To set it up, following things need to be done:
+
+TODO
+
+### Step 1: Set up authentication
+
+I assume that DeepStream server is already installed at this point. Now we need to set up a [simple authentication mechanism](https://deepstreamhub.com/open-source/core/auth-file/).
+
+Change the authentication section of the `/etc/deepstream/config.yml` file so that it looks like this:
+
+```
+auth:
+  type: file
+  options:
+    path: ./users.yml # Path to the user file. Can be json, js or yml
+    hash: 'md5' # the name of a HMAC digest algorithm
+    iterations: 100 # the number of times the algorithm should be applied
+    keyLength: 32 # the length of the resulting key
+```
+
+Deepstream comes with a file `/etc/deepstream/users.yml` that contains one user `userA`. 
+
+### Step 2: Install JavaScript client library
+ 
+Install the client library using `npm install deepstream.io-client-js --save` [source](https://deepstreamhub.com/docs/).
+
+
+ 
 ## How to manually test the library
 
 1. Install [DeepStream](https://deepstreamhub.com/open-source/#install) on your machine. If you are using Windows and [issue #893](https://github.com/deepstreamIO/deepstream.io/issues/893) is not resolved, read section "How to install DeepStream under Windows". 
