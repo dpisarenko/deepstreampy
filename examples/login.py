@@ -12,11 +12,16 @@ from tornado import ioloop
 
 import signal
 
+def callback():
+    print("Callback")
+
 @gen.coroutine
 def run():
     print("Connecting")
-    provider = yield connect("ws://localhost:6020")
-    print("After connection, provider:" + provider)
+    provider = yield connectWithCallback("ws://localhost:6020/deepstream", callback)
+    yield provider.login({"username": "userA", "password": "password"})
+    
+    print("After login")
 
 if __name__ == "__main__":
     print("Before calling run")

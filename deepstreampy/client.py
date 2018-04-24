@@ -30,6 +30,12 @@ def connect(url, **options):
     yield client.connect()
     raise gen.Return(client)
 
+@gen.coroutine
+def connectWithCallback(url, callback, **options):
+    client = Client(url, **options)
+    yield client.connect(callback)
+    raise gen.Return(client)
+
 
 class Client(EventEmitter):
     """

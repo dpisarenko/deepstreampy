@@ -56,6 +56,7 @@ class Connection(object):
     def connect(self, callback=None):
         self._connect_callback = callback
         print("self._on_data: " + type(self._on_data).__name__)
+        print("self._url: " + self._url)
         connect_future = websocket.websocket_connect(
             url=self._url,
             callback=self._on_open,
