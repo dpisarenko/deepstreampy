@@ -18,10 +18,10 @@ def callback():
 @gen.coroutine
 def run():
     print("Connecting")
-    provider = yield connectWithCallback("ws://localhost:6020/deepstream", callback)
-    yield provider.login({"username": "userA", "password": "password"})
+    provider = yield connect("ws://localhost:6020/deepstream")
+    result = yield provider.login({"username": "userA", "password": "password"})
     
-    print("After login")
+    print("After login, result=" + type(result))
 
 if __name__ == "__main__":
     print("Before calling run")
