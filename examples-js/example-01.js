@@ -1,5 +1,5 @@
 var deepstream = require('deepstream.io-client-js')
-const client = deepstream('localhost:6021')
+const client = deepstream('localhost:6020')
 
 client.on('error', (error,event,topic) => {
   console.log(error, event, topic);

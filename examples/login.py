@@ -15,7 +15,8 @@ import signal
 @gen.coroutine
 def run():
     print("Connecting")
-    provider = yield connect("ws://localhost:6020/deepstream")
+    provider = yield connect("ws://localhost:6020")
+    print("After connection, provider:" + provider)
 
 if __name__ == "__main__":
     print("Before calling run")

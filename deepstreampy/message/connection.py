@@ -55,12 +55,11 @@ class Connection(object):
 
     def connect(self, callback=None):
         self._connect_callback = callback
-
+        print("self._on_data: " + type(self._on_data).__name__)
         connect_future = websocket.websocket_connect(
-                self._url,
-                self._io_loop,
-                callback=self._on_open,
-                on_message_callback=self._on_data)
+            url=self._url,
+            callback=self._on_open,
+            on_message_callback=self._on_data)
 
         return connect_future
 
