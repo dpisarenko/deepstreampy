@@ -13,13 +13,6 @@ from tornado import ioloop
 
 import signal
 
-
-def listener(name, logged_in):
-    if logged_in:
-        print("{} logged in".format(name))
-    else:
-        print("{} logged out".format(name))
-
 @gen.coroutine
 def run():
     client = yield connect("ws://localhost:6020/deepstream")
