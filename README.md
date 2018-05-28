@@ -93,11 +93,11 @@ The [DeepStream.io spec](https://github.com/deepstreamIO/deepstream.io-client-sp
 | Nr. | Feature | Is it implemented? | Notes |
 | --- | ------- | ------------------ | ----- |
 |1|[Parsing messages](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/message-parsing.feature)|Unknown||
-|2|[Connecting a client](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/connecting.feature)|Unknown||
+|2|[Connecting a client](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/connecting.feature)|Partially|See item 6, *Logging In*.|
 |3|[Heartbeats](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/connection-heartbeat.feature)|Unknown||
 |4|[Redirecting the client to another deepstream gets rejected](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/connection-invalid-redirect.feature)|Unknown||
 |5|[Redirecting a client to another deepstream](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/connection-redirect.feature)|Unknown||
-|6|[Logging In](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/logging-in.feature)|Yes|[JS](https://github.com/dpisarenko/deepstreampy/blob/dev/examples-js/feature-06-logging-in.js), [Python](https://github.com/dpisarenko/deepstreampy/blob/dev/examples/feature-06-logging-in.py)|
+|6|[Logging In](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/connecting/logging-in.feature)|Partially|Basic login: [JS](https://github.com/dpisarenko/deepstreampy/blob/dev/examples-js/feature-06-logging-in.js), [Python](https://github.com/dpisarenko/deepstreampy/blob/dev/examples/feature-06-logging-in.py)|
 |7|[Events Misc](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/events/event-misc.feature)|Unknown||
 |8|[Events Connectivity](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/events/events-connection.feature)|Unknown||
 |9|[Event Listen Timeouts](https://github.com/deepstreamIO/deepstream.io-client-specs/blob/master/events/events-listen-timeouts.feature)|Unknown||
