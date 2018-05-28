@@ -263,7 +263,7 @@ class Connection(object):
 
         All messages are passed onto and handled by tornado.
         """
-        if not self._websocket_handler.stream.closed():
+        if hasattr(self._websocket_handler, 'stream') && not self._websocket_handler.stream.closed():
             return self._websocket_handler.write_message(raw_message.encode())
         else:
             future = concurrent.Future()
