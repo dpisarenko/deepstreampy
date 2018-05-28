@@ -50,8 +50,6 @@ For this we'll need to use one of the existing DeepStream clients. I will use th
 
 To set it up, following things need to be done:
 
-TODO
-
 ### Step 1: Set up authentication
 
 I assume that DeepStream server is already installed at this point. Now we need to set up a [simple authentication mechanism](https://deepstreamhub.com/open-source/core/auth-file/).
